@@ -1,10 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
+* { margin: 0; padding: 0; box-sizing: border-box; }
 
 body {
   background-color: #0d0d0d;
@@ -13,7 +9,6 @@ body {
   scroll-behavior: smooth;
 }
 
-/* Navbar */
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -26,38 +21,18 @@ body {
   z-index: 10;
 }
 
-.logo {
-  font-weight: 600;
-  font-size: 1.5em;
-}
+.logo { font-weight: 600; font-size: 1.5em; }
+.logo span { color: #007bff; }
 
-.logo span {
-  color: #007bff;
-}
-
-.nav-links {
-  display: flex;
-  list-style: none;
-}
-
+.nav-links { display: flex; list-style: none; }
 .nav-links li a {
-  color: #fff;
-  text-decoration: none;
-  margin-left: 30px;
-  transition: color 0.3s ease;
+  color: #fff; text-decoration: none; margin-left: 30px; transition: color 0.3s;
 }
+.nav-links li a:hover { color: #007bff; }
 
-.nav-links li a:hover {
-  color: #007bff;
-}
+section { padding: 100px 60px; min-height: 100vh; }
 
-/* Seções */
-section {
-  padding: 100px 60px;
-  min-height: 100vh;
-}
-
-/* Início */
+/* INÍCIO */
 .inicio {
   display: flex;
   flex-direction: column;
@@ -66,142 +41,129 @@ section {
   text-align: center;
   height: 100vh;
 }
+.inicio h2 { font-size: 2.5em; }
+.inicio span { color: #007bff; }
+.inicio p { margin-top: 10px; font-size: 1.1em; color: #ccc; }
 
-.inicio h2 {
-  font-size: 2.5em;
-}
-
-.inicio span {
-  color: #007bff;
-}
-
-.inicio p {
-  margin-top: 10px;
-  font-size: 1.1em;
-  color: #ccc;
-}
-
-/* Ícones sociais */
 .social-icons {
-  margin: 25px 0;
-  display: flex;
-  gap: 25px;
+  margin: 25px 0; display: flex; gap: 25px;
 }
-
 .social-icons a {
-  color: #ccc;
-  font-size: 1.6em;
-  transition: color 0.3s, transform 0.3s;
+  color: #ccc; font-size: 1.6em; transition: 0.3s;
 }
-
 .social-icons a:hover {
-  color: #007bff;
-  transform: scale(1.15);
+  color: #007bff; transform: scale(1.15);
 }
 
-/* Botão principal */
-.inicio .btn {
+.btn, .btn-outline {
+  display: inline-block;
   margin-top: 10px;
   padding: 10px 25px;
-  background-color: #007bff;
-  color: #fff;
   border-radius: 30px;
   text-decoration: none;
   transition: 0.3s;
 }
-
-.inicio .btn:hover {
-  background-color: #0056b3;
+.btn { background-color: #007bff; color: #fff; }
+.btn:hover { background-color: #0056b3; }
+.btn-outline {
+  border: 1px solid #007bff; color: #007bff; background: transparent;
+}
+.btn-outline:hover {
+  background-color: #007bff; color: #fff;
 }
 
-/* Sobre */
-.sobre p {
+/* SOBRE */
+.sobre {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.sobre .container {
   max-width: 700px;
-  line-height: 1.6;
-  font-size: 1.1em;
+}
+.sobre p {
   margin-top: 20px;
+  line-height: 1.6;
+  color: #ccc;
 }
 
-/* Habilidades */
-.habilidades .skills {
+/* HABILIDADES */
+.habilidades {
+  text-align: center;
+}
+.skills {
   display: flex;
   flex-wrap: wrap;
-  gap: 20px;
-  margin-top: 30px;
-}
-
-.skill {
-  background-color: #111;
-  padding: 15px 25px;
-  border: 1px solid #007bff;
-  border-radius: 10px;
-  font-weight: 500;
-  transition: 0.3s;
-}
-
-.skill:hover {
-  background-color: #007bff;
-  color: #fff;
-}
-
-/* Projetos */
-.cards {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: 30px;
+  justify-content: center;
+  gap: 25px;
   margin-top: 40px;
 }
-
-.card {
+.skill {
   background-color: #111;
-  padding: 25px;
+  border: 1px solid #007bff;
   border-radius: 10px;
+  width: 120px;
+  padding: 20px 10px;
   transition: 0.3s;
-  border: 1px solid transparent;
 }
-
-.card:hover {
-  border-color: #007bff;
+.skill:hover {
+  background-color: #007bff;
   transform: translateY(-5px);
 }
-
-.card h3 {
+.skill i {
+  font-size: 2em;
   margin-bottom: 10px;
+  color: #007bff;
 }
+.skill:hover i { color: #fff; }
 
-.card .btn {
-  display: inline-block;
-  margin-top: 15px;
-  background-color: #007bff;
-  padding: 8px 18px;
-  border-radius: 20px;
-  text-decoration: none;
-  color: #fff;
+/* PROJETOS */
+.projetos {
+  text-align: center;
+}
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 30px;
+  margin-top: 50px;
+}
+.card {
+  background-color: #111;
+  border-radius: 12px;
+  overflow: hidden;
   transition: 0.3s;
 }
-
-.card .btn:hover {
-  background-color: #0056b3;
+.card img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+}
+.card:hover {
+  transform: translateY(-5px);
+  border: 1px solid #007bff;
+}
+.card h3 { margin: 15px 0 5px; }
+.card p { color: #ccc; font-size: 0.95em; padding: 0 15px 15px; }
+.buttons {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 20px;
 }
 
-/* Contato */
+/* CONTATO */
 .contato {
   text-align: center;
   background-color: #0a0a0a;
   padding-bottom: 40px;
 }
-
 .links a {
   margin: 0 15px;
   color: #007bff;
   text-decoration: none;
-  transition: 0.3s;
 }
-
-.links a:hover {
-  color: #fff;
-}
-
+.links a:hover { color: #fff; }
 footer p {
   margin-top: 20px;
   font-size: 0.9em;
