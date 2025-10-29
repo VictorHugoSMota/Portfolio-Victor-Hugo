@@ -4,7 +4,7 @@
 
 Seja bem-vindo(a) ao meu espaço no GitHub! Sou um(a) desenvolvedor(a) focado(a) no momento em Desenvolvimento Web
 
-Estou sempre buscando aprender e aplicar as melhores práticas do mercado, com paixão por [Mencione um interesse técnico específico, Ex: arquitetura de software limpa, testes automatizados, otimização de performance].
+Estou sempre buscando aprender e aplicar as melhores práticas do mercado, tenho interesse em front-end, desenvolvimento mobile com Flutter e também em Java, explorando tanto o lado visual quanto a lógica e estrutura por trás das aplicações.
 
 <br>
 
@@ -40,3 +40,4 @@ Confira alguns dos meus projetos que melhor demonstram minhas habilidades:
   <img
   src="https://github-readme-stats.vercel.app/api/top-langs/?username=VictorHugoSMota&layout=compact&theme=dark&custom_title=Linguagens%20Mais%20Usadas"
 />
+
