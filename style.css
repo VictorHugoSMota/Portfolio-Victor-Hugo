@@ -246,7 +246,10 @@ section {
   text-decoration: none;
 }
 
-.links a:hover { color: #fff; }
+.links a:hover { 
+  color: #fff; 
+}
+
 footer p {
   margin-top: 20px;
   font-size: 0.9em;
