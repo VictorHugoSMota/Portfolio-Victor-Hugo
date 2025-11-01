@@ -2,9 +2,9 @@
 
 `Desenvolvedor Front End`
 
-Seja bem-vindo(a) ao meu espaço no GitHub! Sou um(a) desenvolvedor(a) focado(a) no momento em Desenvolvimento Web
+### Sou estudante de Sistemas de Informação e desenvolvedor focado em criar aplicações completas e funcionais. Trabalho com HTML, CSS e JavaScript no front-end, desenvolvendo interfaces modernas, responsivas e centradas na experiência do usuário.
 
-Estou sempre buscando aprender e aplicar as melhores práticas do mercado, tenho interesse em front-end, desenvolvimento mobile com Flutter e também em Java, explorando tanto o lado visual quanto a lógica e estrutura por trás das aplicações.
+### No back-end, estou me aprofundando em Node.js e Java, buscando compreender a estrutura e integração entre sistemas para entregar soluções robustas e escaláveis. Meu objetivo é me tornar um desenvolvedor Full Stack, capaz de transformar ideias em projetos reais e eficientes.
 
 ## 
 ### Link para acesso ao Portfolio
@@ -44,5 +44,6 @@ Confira alguns dos meus projetos que melhor demonstram minhas habilidades:
   <img
   src="https://github-readme-stats.vercel.app/api/top-langs/?username=VictorHugoSMota&layout=compact&theme=dark&custom_title=Linguagens%20Mais%20Usadas"
 />
+
 
 
