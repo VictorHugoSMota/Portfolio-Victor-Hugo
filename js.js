@@ -5,4 +5,6 @@ window.addEventListener('scroll', () => {
   } else {
     navbar.style.background = 'rgba(0, 0, 0, 0.9)';
   }
+
+  
 });
